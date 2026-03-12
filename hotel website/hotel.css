@@ -571,16 +571,17 @@ nav {
   background: #b65d0e;
 }
 @media (max-width: 768px) {
-  nav {
+
+  nav{
     flex-direction: row;
-    gap: 15px;
-    padding: 20px;
+    justify-content: space-between;
   }
 
-  .nav-links {
-    flex-direction: column;
-    gap: 10px;
+  .nav-links{
+    flex-direction: row;
+    gap:15px;
   }
+
 }
 @media (max-width: 768px) {
   .hero-content h1 {
